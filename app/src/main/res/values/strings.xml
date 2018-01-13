@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UAS PPB</string>
+    <string name="title_activity_pesona">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_sudirman">Map</string>
+    <string name="title_activity_maps_pesona">Map</string>
+    <string name="title_activity_maps_titan">Map</string>
+    <string name="title_activity_maps_rcm">Map</string>
+    <string name="title_activity_maps_sss">Map</string>
+    <string name="title_activity_maps_ggss">Map</string>
+    <string name="title_activity_maps_panamur">Map</string>
+    <string name="title_activity_maps_bifons">Map</string>
+    <string name="title_activity_maps_gallery">Map</string>
+    <string name="title_activity_maps_holywood">Map</string>
+    <string name="title_activity_maps_toblong">Map</string>
+</resources>

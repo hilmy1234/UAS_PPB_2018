@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hilmyabcd.uasppb.GarutKota">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pesona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Pesona Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/gbrpesona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pesona"
+            android:src="@drawable/pesona"/>
+        <TextView
+            android:id="@+id/ketpesona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lapang Pesona Futsal
+Jl. Proklamasi No.18, Jayaraga, Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sudirman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Sudirman Futsal Centre"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/gbrsudirman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sudirman" />
+        <TextView
+            android:id="@+id/ketsudirman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lapang Sudirman Futsal Centre
+Jl. Kotakulon, Garut Kota, Kota Kulon, Garut Kota, Kabupaten Garut, Jawa Barat 44112"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Ball Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/gbrball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ball" />
+        <TextView
+            android:id="@+id/ketball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang Ball Futsal
+Suci, Karangpawitan, Kabupaten Garut, Jawa Barat 44182"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/titan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ketsudirman"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Titan Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/gbrtitan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titan" />
+        <TextView
+            android:id="@+id/kettitan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang Titan Futsal
+Jl. Jenderal Sudirman No.24, Kota Wetan, Garut Kota, Kabupaten Garut, Jawa Barat 44111"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/rcm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="RCM Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/gbrrcm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sudirman" />
+        <TextView
+            android:id="@+id/ketrcm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang RCM Futsal
+Jl. Cikamiri, Sukabakti, Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Sinar Sari Sport"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/gbrsss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sss" />
+        <TextView
+            android:id="@+id/ketsss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang Sinar Sari Sport
+Jl. Cipanas Baru No.78, Pananjung, Tarogong Kaler, Kabupaten Garut, Jawa Barat 44151"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</ScrollView>

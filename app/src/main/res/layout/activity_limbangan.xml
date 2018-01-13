@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hilmyabcd.uasppb.Limbangan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bifons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Bifons Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/gbrbifons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bifons" />
+
+        <TextView
+            android:id="@+id/ketbifons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang Bifons Futsal
+Jl. Raya Bandrek-Lewo, Sukalilah, Kersamanah, Kabupaten Garut, Jawa Barat 44185"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Gallery Futsal"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/gbrgallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gallery" />
+
+        <TextView
+            android:id="@+id/ketgallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Lapang Gallery Futsal
+Jl. Garut - Tasikmalaya No.16, Salebu, Mangunreja, Tasikmalaya, Jawa Barat 46462"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</ScrollView>
